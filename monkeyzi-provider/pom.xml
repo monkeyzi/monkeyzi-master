@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>monkeyzi-master</artifactId>
+        <groupId>com.gaoyg.monkeyzi</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>monkeyzi-provider</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>monkeyzi-uloud</module>
+        <module>monkeyzi-msgcloud</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.gaoyg.monkeyzi</groupId>
+            <artifactId>monkeyzi-base</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.gaoyg.monkeyzi</groupId>
+            <artifactId>monkeyzi-entity</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.gaoyg.monkeyzi</groupId>
+            <artifactId>monkeyzi-swagger</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>

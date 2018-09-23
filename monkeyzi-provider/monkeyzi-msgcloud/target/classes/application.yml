@@ -1,0 +1,7 @@
+server:
+  servlet:
+    context-path: /msgcloud
+  port: 8081
+monkeyzi:
+  swagger:
+    groupName: monkeyzi-msgcloud

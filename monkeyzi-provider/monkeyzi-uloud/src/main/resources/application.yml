@@ -1,0 +1,7 @@
+server:
+  servlet:
+    context-path: /ucloud
+  port: 8080
+monkeyzi:
+  swagger:
+    groupName: monkeyzi-ucloud
